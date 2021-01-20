@@ -16,7 +16,7 @@ gem "responders", "~> 2.1"
 
 group :test do
   gem "omniauth-facebook"
-  gem "omniauth-openid"
+  gem "omniauth-openid", ">= 2.0.1"
   gem "webrat", "0.7.3", require: false
   gem "mocha", "~> 1.1", require: false
 end
